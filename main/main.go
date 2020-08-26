@@ -17,6 +17,7 @@ var db *sql.DB
 var rdb *redis.Client
 
 func main() {
+	fmt.Println("你好啊 ")
 	var err error
 	db, err = mysql.InitDB()
 	if err != nil {
