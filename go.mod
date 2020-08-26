@@ -1,4 +1,4 @@
-module packagedemo
+module github.com/qiulc/gotest
 
 go 1.14
 

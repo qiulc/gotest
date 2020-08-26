@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	// 自定义包
-	"packagedemo/conn/myredis"
-	"packagedemo/conn/mysql"
+	"github.com/qiulc/gotest/conn/myredis"
+	"github.com/qiulc/gotest/conn/mysql"
 
 	// 外包
 	"github.com/go-redis/redis"
